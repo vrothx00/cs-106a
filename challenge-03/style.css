@@ -1,0 +1,19 @@
+body {
+	text-align: center;
+	background-color: rgba(137, 43, 226, 0.565);
+}
+
+#quote, lable {
+	font-weight: 700;
+}
+p {
+	color: aliceblue;
+}
+input {
+	margin: 5px;
+}
+input[type="button"] {
+	background-color: orange;
+	width: 150px;
+	padding: 10px;
+}
