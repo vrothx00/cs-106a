@@ -14,35 +14,43 @@ def main():
     starting to write your own code. You should also delete this
     comment and replace it with a better, more descriptive one.
     """
-    build_column()
-    turn_right()
-    move_forward()
-    turn_left()
-    turn_left()
-    build_column()
-    turn_left()
-    move_forward()
-    build_column()
-    turn_right()
-    move_forward()
-    turn_left()
-    turn_left()
-    build_column()
+    for i in range(4):
+        build_column()
+        return_to_base()
+        move_forward()
+
+# help beeper to return to base
+def return_to_base():
+    turn_around()
+    while front_is_clear():
+        move()
     turn_left()
 
-
+# build one column wih beepers
 def build_column():
     turn_left()
-    for i in range(4):
+    while front_is_clear():
         put_beeper()
         move()
     put_beeper()
 
+# help beeper to turn right
 def turn_right():
     turn_left()
     turn_left()
     turn_left()
 
+# help beeper to turn around
+def turn_around():
+    turn_left()
+    turn_left()
+
 def move_forward():
-    for i in range(4):
-        move()
+    if front_is_clear():
+        for i in range(4):
+            move()
+
+
+
+if __name__ == '__main__':
+    main()
