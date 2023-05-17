@@ -1,5 +1,7 @@
 import random
 
+i = 0
+
 def main():
     print("Khansole Academy")
     # TODO: your code here
