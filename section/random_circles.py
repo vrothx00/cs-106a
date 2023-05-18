@@ -1,3 +1,8 @@
+# Write a program that draws circles at random positions with random colors on the canvas.
+# You are provided with the constants N_CIRCLES (the number of circles to draw),
+# CANVAS_WIDTH and CANVAS_HEIGHT (the width and height of the canvas, respectively),
+# and CIRCLE_SIZE (which is both the width and height of the circle).
+
 from graphics import Canvas
 import random
 
