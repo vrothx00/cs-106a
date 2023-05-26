@@ -16,8 +16,7 @@ def main():
     
 def draw_circle_patch(canvas, start_x, start_y):
     # TODO: your code here
-    
-    pass
+ 
 
 def draw_square_patch(canvas, start_x, start_y):
     # draws a purple frame at (start_x, start_y)
