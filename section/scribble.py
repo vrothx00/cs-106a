@@ -1,3 +1,9 @@
+# Write a program that draws a circle wherever the mouse is located on the screen. 
+# The user will move their mouse within the canvas, and a circle should be drawn with its left and top x and y values as the x and y values of the user's mouse. 
+# Each circle should have a width and height of CIRCLE_SIZE (a constant defined for you in the starter code), and a color of your choosing. 
+# The animation should have a delay of DELAY (another constant defined for you in the starter code). 
+
+
 from graphics import Canvas
 
 CANVAS_WIDTH = 300
