@@ -1,5 +1,6 @@
-# CS106A
-This repo contains my solutions to the assignments from CS106A
+# Code In Place
+Code in Place is a programming course using the Python language, based on material from Stanford University's established intro course, CS106A.
+This repo contains my solutions to the assignments.
 
 # Getting Started
 To get started with the course, simply clone or download this repository to your local machine
