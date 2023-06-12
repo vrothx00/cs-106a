@@ -13,10 +13,18 @@ def main():
     draw_square_patch(canvas, PATCH_SIZE*2, 0)
     draw_circle_patch(canvas, PATCH_SIZE*3, 0)
     # TODO: your code here
+    draw_circle_patch(canvas, 0, PATCH_SIZE)
+    draw_square_patch(canvas, PATCH_SIZE, PATCH_SIZE)
+    draw_circle_patch(canvas, PATCH_SIZE*2, PATCH_SIZE)
+    draw_square_patch(canvas, PATCH_SIZE*3, PATCH_SIZE)
     
 def draw_circle_patch(canvas, start_x, start_y):
     # TODO: your code here
- 
+    end_x = start_x + PATCH_SIZE
+    end_y = start_y + PATCH_SIZE
+    canvas.create_rectangle(start_x, start_y, end_x, end_y, 'white')
+    canvas.create_oval(start_x, start_y, 
+        end_x, end_y, 'red')
 
 def draw_square_patch(canvas, start_x, start_y):
     # draws a purple frame at (start_x, start_y)
